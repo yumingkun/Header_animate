@@ -14,7 +14,7 @@ let navTip=getElem('.header_nav-tip');//获取导航下的红条
 let setTip=function (index) {
 
     navItems[index].onclick=function () {
-        navTip.style.left=(index*100 )+'px'
+        navTip.style.left=(index*100 )+'px';
     };
 
 

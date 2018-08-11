@@ -55,10 +55,11 @@ h2,h3{
     line-height: 38px;
     top: 50%;
     margin-top: -19px;
+
 }
 /*每一个导航*/
 .header_nav-item{
-    color: #292f35;
+    color: #000000;
     font-size: 14px;
     display: block;
     height: 38px;
@@ -66,6 +67,7 @@ h2,h3{
     float: left;
     margin-left: 40px;
     text-align: center;
+    z-index: 2;
 }
 
 
@@ -73,13 +75,16 @@ h2,h3{
 
 /*导航条下面的方框*/
 .header_nav-tip{
+    z-index: 1;
     position: absolute;
     width: 30px;
     height: 4px;
-    background-color: #f01400;
+    background-color: red;
     bottom: 0;
     left: 0px;
     margin-left: 55px;
     transition: all .3s;
+
+
 }
 
